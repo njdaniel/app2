@@ -12,7 +12,7 @@ You will also need to make sure that **you** start/install the database of your 
 
 
 ### Start Postgres with Docker
-    $ docker run --name go-postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+    $ docker run --name postgres -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
 
 
 ### Create Your Databases
